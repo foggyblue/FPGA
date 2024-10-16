@@ -1,0 +1,73 @@
+m255
+K4
+z2
+!s12c _opt
+Z0 !s99 nomlopt
+!s11f vlog 2023.3 2023.07, Jul 17 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dD:/MUST/EIE_Year_3/FPGA/Projects/lab1/comparator1bit/quartus_prj/simulation/questa
+T_opt
+Z2 !s110 1729076588
+VZTA2F;QB5:5AXDna?dZJa0
+04 17 4 work tb_comparator1bit fast 0
+=1-f8fe5e5cddc5-670f9d6c-275-e40
+R0
+!s12b OEM100
+!s124 OEM10U2 
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work +acc
+Z3 tCvgOpt 0
+n@_opt
+OL;O;2023.3;77
+vcomparator1bit
+2D:/MUST/EIE_Year_3/FPGA/Projects/lab1/comparator1bit/rtl/comparator1bit.v
+R2
+!i10b 1
+!s100 ^8:9FVYC]Hmid^?`03Sm=2
+IU^9Q1PdFE^OlWGlD`EeFf3
+R1
+w1729073912
+8D:/MUST/EIE_Year_3/FPGA/Projects/lab1/comparator1bit/rtl/comparator1bit.v
+FD:/MUST/EIE_Year_3/FPGA/Projects/lab1/comparator1bit/rtl/comparator1bit.v
+!i122 0
+L0 2 12
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2023.3;77
+r1
+!s85 0
+31
+Z6 !s108 1729076588.000000
+!s107 D:/MUST/EIE_Year_3/FPGA/Projects/lab1/comparator1bit/rtl/comparator1bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/MUST/EIE_Year_3/FPGA/Projects/lab1/comparator1bit/rtl|D:/MUST/EIE_Year_3/FPGA/Projects/lab1/comparator1bit/rtl/comparator1bit.v|
+!i113 0
+Z7 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+!s92 -vlog01compat -work work +incdir+D:/MUST/EIE_Year_3/FPGA/Projects/lab1/comparator1bit/rtl -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+vtb_comparator1bit
+2D:/MUST/EIE_Year_3/FPGA/Projects/lab1/comparator1bit/quartus_prj/../sim/tb_comparator1bit.v
+R2
+!i10b 1
+!s100 fLP75lQW>b51a;NQ4M>H31
+IJl<iXGM=HY<?md;l`_<o;1
+R1
+w1729074350
+8D:/MUST/EIE_Year_3/FPGA/Projects/lab1/comparator1bit/quartus_prj/../sim/tb_comparator1bit.v
+FD:/MUST/EIE_Year_3/FPGA/Projects/lab1/comparator1bit/quartus_prj/../sim/tb_comparator1bit.v
+!i122 1
+L0 3 49
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/MUST/EIE_Year_3/FPGA/Projects/lab1/comparator1bit/quartus_prj/../sim/tb_comparator1bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/MUST/EIE_Year_3/FPGA/Projects/lab1/comparator1bit/quartus_prj/../sim|D:/MUST/EIE_Year_3/FPGA/Projects/lab1/comparator1bit/quartus_prj/../sim/tb_comparator1bit.v|
+!i113 0
+R7
+!s92 -vlog01compat -work work +incdir+D:/MUST/EIE_Year_3/FPGA/Projects/lab1/comparator1bit/quartus_prj/../sim -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3

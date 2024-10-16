@@ -1,0 +1,17 @@
+vendor_name = ModelSim
+source_file = 1, D:/MUST/EIE_Year_3/FPGA/Projects/lab1_new/fulladder/quartus_prj/halfadder.v
+source_file = 1, D:/MUST/EIE_Year_3/FPGA/Projects/lab1_new/fulladder/quartus_prj/fulladder.v
+source_file = 1, D:/MUST/EIE_Year_3/FPGA/Projects/lab1_new/fulladder/sim/tb_fulladder.v
+source_file = 1, D:/MUST/EIE_Year_3/FPGA/Projects/lab1_new/fulladder/quartus_prj/db/fulladder.cbx.xml
+design_name = fulladder
+instance = comp, \sum~output , sum~output, fulladder, 1
+instance = comp, \cout~output , cout~output, fulladder, 1
+instance = comp, \in2~input , in2~input, fulladder, 1
+instance = comp, \in1~input , in1~input, fulladder, 1
+instance = comp, \cin~input , cin~input, fulladder, 1
+instance = comp, \mod1|Add0~0 , mod1|Add0~0, fulladder, 1
+instance = comp, \cout~0 , cout~0, fulladder, 1
+design_name = hard_block
+instance = comp, \~ALTERA_ASDO_DATA1~~ibuf , ~ALTERA_ASDO_DATA1~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_FLASH_nCE_nCSO~~ibuf , ~ALTERA_FLASH_nCE_nCSO~~ibuf, hard_block, 1
+instance = comp, \~ALTERA_DATA0~~ibuf , ~ALTERA_DATA0~~ibuf, hard_block, 1

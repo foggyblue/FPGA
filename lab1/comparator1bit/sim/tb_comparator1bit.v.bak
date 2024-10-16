@@ -1,0 +1,43 @@
+`timescale 1ns/1ns
+module tb_comparator1bit();
+
+// Declare inputs as reg and outputs as wire
+reg a;
+reg b;
+wire a_lt_b;
+wire a_gt_b;
+wire a_eq_b;
+
+// Instantiate the comparator1bit module
+comparator1bit uut (
+    .a(a),
+    .b(b),
+    .a_lt_b(a_lt_b),
+    .a_gt_b(a_gt_b),
+    .a_eq_b(a_eq_b)
+);
+
+// Test procedure
+initial begin
+    // Display format for output
+    $monitor("Time: %0t | a = %b | b = %b | a_lt_b = %b | a_gt_b = %b | a_eq_b = %b", 
+             $time, a, b, a_lt_b, a_gt_b, a_eq_b);
+    
+    // Apply input test cases
+    a = 0; b = 0;  // Expect: a_eq_b = 1, a_lt_b = 0, a_gt_b = 0
+    #10;
+    
+    a = 0; b = 1;  // Expect: a_lt_b = 1, a_eq_b = 0, a_gt_b = 0
+    #10;
+    
+    a = 1; b = 0;  // Expect: a_gt_b = 1, a_eq_b = 0, a_lt_b = 0
+    #10;
+    
+    a = 1; b = 1;  // Expect: a_eq_b = 1, a_lt_b = 0, a_gt_b = 0
+    #10;
+    
+    // End simulation
+    $stop;
+end
+
+endmodule
