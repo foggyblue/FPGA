@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Wed Oct 30 18:07:11 2024
+Quartus Prime Version : 23.1std.1 Build 993 05/14/2024 SC Lite Edition
+Revision Name : simple_fsm_refund
+Top-level Entity Name : simple_fsm_refund
+Family : Cyclone IV E
+Total logic elements : 5
+    Total combinational functions : 5
+    Dedicated logic registers : 5
+Total registers : 5
+Total pins : 6
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

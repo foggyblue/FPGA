@@ -1,0 +1,22 @@
+|simple_fsm_refund
+sys_clk => refund_r.CLK
+sys_clk => cola_r.CLK
+sys_clk => st_cur~1.DATAIN
+sys_rst_n => cola_r.ACLR
+sys_rst_n => refund_r.ACLR
+sys_rst_n => st_cur~3.DATAIN
+coin => st_next.OUTPUTSELECT
+coin => st_next.OUTPUTSELECT
+coin => always2.IN0
+coin => Selector1.IN2
+coin => Selector2.IN2
+coin => Selector0.IN2
+coin => Selector0.IN0
+coin => Selector2.IN1
+refund_request => always3.IN0
+refund_request => st_next.DATAA
+refund_request => st_next.DATAA
+cola << cola_r.DB_MAX_OUTPUT_PORT_TYPE
+refund << refund_r.DB_MAX_OUTPUT_PORT_TYPE
+
+
